@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: auto;
+    padding: 10px;
+    width: 30%;
+    border: 3px solid #f49ac1;
+    text-align: center;
+}
+
+#image{
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 900px;
+}
+
+.imgs{
+    height: 200px;
+    padding: 5px;
+}
+
+@media screen and (max-width: 1700px) {
+    #image{
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: auto;
+        width: 95%;
+    }
+}
